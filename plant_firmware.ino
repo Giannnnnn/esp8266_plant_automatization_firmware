@@ -2,9 +2,9 @@
 #include <PubSubClient.h>
 
 // CONFIGURAÇÕES DE WIFI, MQTT E PORTAS LÓGICAS
-const char* ssid = "Giovani";
-const char* password = "sucodeuva";
-const char* mqtt_server = "193.133.195.176";
+const char* ssid = "IP";
+const char* password = "PASSWORD";
+const char* mqtt_server = "MQTT_SERVER_ROUTE";
 #define MAX_DISTANCE 700
 float timeOut = MAX_DISTANCE * 60;
 int soundVelocity = 340;
